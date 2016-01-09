@@ -34,10 +34,10 @@ if (isset($_POST['btn-mostrar-grafico'])) {
 <!DOCTYPE html>
 <html>
   <head>
+  
     <!-- EXTERNAL LIBS-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://www.google.com/jsapi"></script>
-
     <!-- EXAMPLE SCRIPT -->
     <script>
 	var cam = "<?php

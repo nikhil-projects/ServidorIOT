@@ -1,8 +1,8 @@
 @charset "utf-8";
 
 * {
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 #logotipo {
@@ -13,12 +13,12 @@
 }
 
 #login-form {
-    margin-top: 50px;
+	margin-top: 50px;
 }
 
 table {
-    border: solid #dcdcdc 1px;
-    padding: 25px;
+	border: solid #dcdcdc 1px;
+	padding: 25px;
 	box-shadow: 0px 0px 1px rgba(0,0,0,0.2);
 }
 

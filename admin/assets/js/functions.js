@@ -1,5 +1,5 @@
 dropdownMenu = function() {
-    document.getElementById("myDropdown").classList.toggle("show");
+	document.getElementById("myDropdown").classList.toggle("show");
 }
 
 displayGraphPopup = function() {
@@ -8,7 +8,7 @@ displayGraphPopup = function() {
 }
 
 displayMaximaTemperatura = function() {
-   $("#temperatura-adicionar").toggle().siblings('div').hide();
+	$("#temperatura-adicionar").toggle().siblings('div').hide();
 }
 
 displayRemoverMaximaTemperatura = function() {

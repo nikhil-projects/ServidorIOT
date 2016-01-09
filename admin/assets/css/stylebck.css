@@ -1,8 +1,8 @@
 @charset "utf-8";
 
 * {
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 body {
@@ -52,50 +52,50 @@ body {
 
 .dropbtn {
 	margin: 10px 410px;
-    background-color: rgba(9, 25, 42, 1);
-    color: white;
-    padding: 14px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
+	background-color: rgba(9, 25, 42, 1);
+	color: white;
+	padding: 14px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
 }
 
 .btn-graph {
 	position: absolute;
 	margin: 10px 530px;
-    background-color: rgba(9, 25, 42, 1);
-    color: white;
-    padding: 14px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
+	background-color: rgba(9, 25, 42, 1);
+	color: white;
+	padding: 14px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
 }
 
 .dropbtn:hover, .dropbtn:focus {
-    background-color: rgba(9, 25, 42, 1);
+	background-color: rgba(9, 25, 42, 1);
 }
 
 .dropdown {
-    position: absolute;
-    display: inline-block;
+	position: absolute;
+	display: inline-block;
 }
 
 .dropdown-content {
-    display: none;
-    position: absolute;
+	display: none;
+	position: absolute;
 	margin: 0 380px;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    overflow: auto;
-    box-shadow: 0px 4px 12px 0px rgba(0,0,0,0.2);
+	background-color: #f9f9f9;
+	min-width: 160px;
+	overflow: auto;
+	box-shadow: 0px 4px 12px 0px rgba(0,0,0,0.2);
 	z-index: 1;
 }
 
 .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
 }
 
 .dropdown a:hover {background-color: #f1f1f1}
@@ -109,8 +109,8 @@ body {
 
 #camiao-popup table {
 	margin: 0 450px;
-    border: solid #dcdcdc 1px;
-    padding: 25px;
+	border: solid #dcdcdc 1px;
+	padding: 25px;
 	box-shadow: 0px 0px 3px rgba(0,0,0,0.2);
 	background-color: rgba(248,248,248,1); 
 }
@@ -159,8 +159,8 @@ body {
 
 #camiao-adicionar table {
 	margin: 0 450px;
-    border: solid #dcdcdc 1px;
-    padding: 25px;
+	border: solid #dcdcdc 1px;
+	padding: 25px;
 	box-shadow: 0px 0px 3px rgba(0,0,0,0.2);
 }
 
@@ -208,8 +208,8 @@ body {
 
 #camiao-remover table {
 	margin: 0 450px;
-    border: solid #dcdcdc 1px;
-    padding: 25px;
+	border: solid #dcdcdc 1px;
+	padding: 25px;
 	box-shadow: 0px 0px 3px rgba(0,0,0,0.2);
 }
 
@@ -251,75 +251,75 @@ body {
 }
 
 body {
-  font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
-  color: #34495e;
-  -webkit-font-smoothing: antialiased;
-  line-height: 1.6em;
+	font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+	color: #34495e;
+	-webkit-font-smoothing: antialiased;
+	line-height: 1.6em;
 }
 
 p {
-  margin: 0;
+	margin: 0;
 }
 
 .notice {
-  position: relative;
-  margin: 1em;
-  background: #F9F9F9;
-  padding: 1em 1em 1em 2em;
-  border-left: 4px solid #DDD;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.125);
-  display: block;
+	position: relative;
+	margin: 1em;
+	background: #F9F9F9;
+	padding: 1em 1em 1em 2em;
+	border-left: 4px solid #DDD;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.125);
+	display: block;
 }
 
 .notice:before {
-  position: absolute;
-  top: 50%;
-  margin-top: -17px;
-  left: -17px;
-  background-color: #DDD;
-  color: #FFF;
-  width: 30px;
-  height: 30px;
-  border-radius: 100%;
-  text-align: center;
-  line-height: 30px;
-  font-weight: bold;
-  font-family: Georgia;
-  text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+	position: absolute;
+	top: 50%;
+	margin-top: -17px;
+	left: -17px;
+	background-color: #DDD;
+	color: #FFF;
+	width: 30px;
+	height: 30px;
+	border-radius: 100%;
+	text-align: center;
+	line-height: 30px;
+	font-weight: bold;
+	font-family: Georgia;
+	text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
 }
 
 .info {
-  border-color: #0074D9;
+	border-color: #0074D9;
 }
 
 .info:before {
-  content: "i";
-  background-color: #0074D9;
+	content: "i";
+	background-color: #0074D9;
 }
 
 .success {
-  border-color: #2ECC40;
+	border-color: #2ECC40;
 }
 
 .success:before {
-  content: "√";
-  background-color: #2ECC40;
+	content: "√";
+	background-color: #2ECC40;
 }
 
 .warning {
-  border-color: #FFDC00;
+	border-color: #FFDC00;
 }
 
 .warning:before {
-  content: "!";
-  background-color: #FFDC00;
+	content: "!";
+	background-color: #FFDC00;
 }
 
 .error {
-  border-color: #FF4136;
+	border-color: #FF4136;
 }
 
 .error:before {
-  content: "X";
-  background-color: #FF4136;
+	content: "X";
+	background-color: #FF4136;
 }

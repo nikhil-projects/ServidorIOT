@@ -5,7 +5,7 @@ require_once '../class/database.class.php';
 
 if (isset($_COOKIE["cookie_cn"]) == "conectado") {
     $database = new Database();
-    
+
     if (isset($_GET['cam']) && (is_numeric($_GET["cam"])) && isset($_GET['temp']) && (is_numeric($_GET['temp']))) {
         $date = date('Y-m-d h:m:s');
         $cam  = $_GET['cam'];
